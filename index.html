@@ -25,7 +25,7 @@
         body {
             color: #fff;
             background-color: #4c2e20;
-            
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -44,12 +44,11 @@
         main {
             width: 700px;
             max-width: 100%;
-
         }
 
         main > div {
-            background-color: #fff;
-            color: #444; /* #414242; */
+            background-color: rgba(176,144,113,.08);
+            color: #b09071; /* #414242; */
             padding: 2em;
         }
 
@@ -60,17 +59,25 @@
             width: 300px;
             max-width: 100%;
             box-sizing: border-box;
-            padding: .3em;
-            background-color: #e2d5c8;
+            padding: .5em 1em;
+            background-color: rgba(212, 187, 161, .1);
+            color: #e0cfbe;
             border: none;
-            border-radius: 0
-        }
-        
-        #mc_embed_signup .button:hover,
-        #mc_embed_signup .button:focus {
-            background-color: #615049
         }
 
+        input[type=email] {
+          background-color: transparent;
+          border-bottom: 3px solid rgba(212, 187, 161, 0.2);
+        }
+
+        #mc_embed_signup .button {
+          transition: background-color .5s;
+        }
+
+        #mc_embed_signup .button:hover,
+        #mc_embed_signup .button:focus {
+            background-color: rgba(212, 187, 161, 0.2);
+        }
 
         div p {
             font-size: 1.3em;
@@ -90,9 +97,7 @@
         svg {
             fill: #b09071;
         }
-
     </style>
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <main>
@@ -100,23 +105,21 @@
     <div>
         <p>Subscribe to our newsletter</p>
         <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://wheelofcheese.us18.list-manage.com/subscribe/post?u=23b9984dfc06efeb4d00bc0e4&amp;id=584b3a0975" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-<div class="mc-field-group">
-	<input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_23b9984dfc06efeb4d00bc0e4_584b3a0975" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+        <div id="mc_embed_signup">
+        <form action="https://wheelofcheese.us18.list-manage.com/subscribe/post?u=23b9984dfc06efeb4d00bc0e4&amp;id=584b3a0975" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
+        </div>
+        <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_23b9984dfc06efeb4d00bc0e4_584b3a0975" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </form>
+        </div>
+        <!--End mc_embed_signup-->
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.33 22.94" id="mid"><defs/><g id="Layer_2" data-name="Layer 2"><g id="Calque_1" data-name="Calque 1"><path class="cls-1" d="M25.47 22.4c0 .19-.16.27-.48.22h-7.13c-.3 0-.45-.06-.45-.19s.25-.17.75-.19.95-.22.95-.58v-7.18a19 19 0 0 0-.23-4 1.49 1.49 0 0 0-1.61-.94 2.14 2.14 0 0 0-1.87 1 1.82 1.82 0 0 0-.32.93C15 11.92 15 13 15 14.82v6.1c0 .64.06 1 .17 1.12a2.37 2.37 0 0 0 1.2.17c.19 0 .29.05.29.16s-.12.25-.35.25a3.3 3.3 0 0 1-.51 0l-6.2-.06c-.19 0-.29-.07-.29-.2s.26-.19.77-.19.6-.05.67-.16l.06-.32v-7.88a10.51 10.51 0 0 0-.35-3.63A1.49 1.49 0 0 0 9 9.55a2.12 2.12 0 0 0-1.95 1.1 2.22 2.22 0 0 0-.27.85c0 .29-.05 1.13-.05 2.52v6.36q0 1.47.18 1.62a1.73 1.73 0 0 0 .88.14h.48c.21 0 .32.06.32.18s-.1.21-.29.21H.8c-.28 0-.42-.08-.42-.25s.1-.23.29-.23l.74.13A1.2 1.2 0 0 0 2.3 22c.17-.15.26-.6.26-1.34v-5.3a40 40 0 0 0-.13-4.78c-.17-.2-.83-.29-2-.29-.3 0-.45-.08-.45-.22s.14-.26.42-.26A12.21 12.21 0 0 0 6.1 8.4a1.12 1.12 0 0 1 .42-.16c.1 0 .16.09.16.26v2.14A4.75 4.75 0 0 1 11 8.24c2.15 0 3.42.88 3.8 2.62a4.8 4.8 0 0 1 1.78-2 5.61 5.61 0 0 1 2.78-.61q4.05 0 4.05 4.5v7.89a5.58 5.58 0 0 0 .08 1.25c.05.15.23.24.53.26s.81.07 1.15.07.3.05.3.18zM34.7 22.33c0 .15-.1.23-.29.23h-8c-.26 0-.38-.07-.38-.21s.24-.16.73-.18c.73 0 1.15-.1 1.28-.24a2.35 2.35 0 0 0 .19-1.26v-9.22A2.85 2.85 0 0 0 28 10q-.21-.24-1.26-.24a3.58 3.58 0 0 1-.78 0c-.08 0-.11-.09-.11-.22s.16-.22.48-.22a15.76 15.76 0 0 0 6-1.09c.05.26.1 1 .16 2.11v10.01c0 .88.08 1.39.24 1.54a3.31 3.31 0 0 0 1.65.22c.2 0 .32.08.32.22zM32.46 2.08a2.11 2.11 0 0 1-.62 1.53 2 2 0 0 1-1.5.64 2.11 2.11 0 0 1-1.54-.61 2 2 0 0 1-.62-1.53A1.92 1.92 0 0 1 28.8.64a2.29 2.29 0 0 1 1.6-.58 2 2 0 0 1 1.47.58 1.89 1.89 0 0 1 .59 1.44zM51.35 21.92c0 .15-.22.22-.64.22h-1.44a7.76 7.76 0 0 0-3.29.74l-.23.06c-.19 0-.29-.19-.31-.57a5.05 5.05 0 0 0-.1-.8A4.42 4.42 0 0 1 42 22.94a5.89 5.89 0 0 1-4.63-2.07 7.71 7.71 0 0 1-1.82-5.28 7.43 7.43 0 0 1 1.85-5.25 6.38 6.38 0 0 1 4.89-2 4 4 0 0 1 3.23 1.47V5.34a12.05 12.05 0 0 0-.26-3.41c-.17-.35-.73-.51-1.69-.49-.56 0-.83-.08-.83-.23s.13-.22.38-.22a18.4 18.4 0 0 0 5.57-.86 1.87 1.87 0 0 1 .54-.13c.24 0 .36.26.36.77v19.9a1.19 1.19 0 0 0 .16.74c.15.19.52.28 1.12.25.32-.02.48.07.48.26zM45.47 19v-7A3.74 3.74 0 0 0 45 9.94a1.93 1.93 0 0 0-1.7-.9q-3.09 0-3.09 6.81a11.27 11.27 0 0 0 .79 4.69 2.44 2.44 0 0 0 2.2 1.67 2.14 2.14 0 0 0 1.56-.75 3.37 3.37 0 0 0 .71-2.46zM73.1 15.46a3.58 3.58 0 0 1-.06.61 62.29 62.29 0 0 0-.73 6.55c-2.56-.08-5-.13-7.48-.13h-2.05l-4.25.07h-.73c-.77 0-1.15-.12-1.15-.38s.16-.38.48-.64a54.66 54.66 0 0 0 6.6-6.08A10.71 10.71 0 0 0 66.43 8 6.61 6.61 0 0 0 65 3.45a3.56 3.56 0 0 0-2.75-1.12 3.48 3.48 0 0 0-2.38.82 2.28 2.28 0 0 0-.94 1.71.6.6 0 0 0 .44.64l.92.09a2.24 2.24 0 0 1 1.58.72A2.36 2.36 0 0 1 62.46 8a2.3 2.3 0 0 1-.57 1.61 1.9 1.9 0 0 1-1.49.62 2.41 2.41 0 0 1-1.95-.92 3.8 3.8 0 0 1-.75-2.46 5.08 5.08 0 0 1 1.78-4.15 7.34 7.34 0 0 1 4.87-1.49A7.6 7.6 0 0 1 69.56 3a5.84 5.84 0 0 1 2 4.58q0 5.52-10.19 11.1h4c2.32 0 3.82-.08 4.51-.16a2.9 2.9 0 0 0 1.85-.65 4.16 4.16 0 0 0 .61-1.74c.12-.73.29-1.09.51-1.09s.25.13.25.42zM91.41 12.24a12.4 12.4 0 0 1-2.26 7.67 6.94 6.94 0 0 1-5.76 3 7.31 7.31 0 0 1-5.94-3.16A12.08 12.08 0 0 1 75 12.11q0-6 3.74-9.2a6.82 6.82 0 0 1 4.63-1.7 6.55 6.55 0 0 1 4.12 1.31 9.51 9.51 0 0 1 2.86 4 14.78 14.78 0 0 1 1.06 5.72zm-5.27-.55q0-6.75-1-8.78a1.92 1.92 0 0 0-1.84-1.15c-1.09 0-1.86.75-2.3 2.24a27 27 0 0 0-.74 7.25q0 7.59 1.41 9.93a2 2 0 0 0 1.76 1.19c1.06 0 1.77-.76 2.14-2.28a41.79 41.79 0 0 0 .57-8.4zM109 15.46a2.85 2.85 0 0 1-.07.61 65.08 65.08 0 0 0-.73 6.55c-2.56-.08-5-.13-7.48-.13h-2.04l-4.25.07h-.74c-.76 0-1.15-.12-1.15-.38s.16-.38.48-.64a54.66 54.66 0 0 0 6.6-6.08A10.71 10.71 0 0 0 102.34 8a6.61 6.61 0 0 0-1.44-4.59 3.55 3.55 0 0 0-2.75-1.12 3.5 3.5 0 0 0-2.38.82 2.31 2.31 0 0 0-.94 1.71.6.6 0 0 0 .45.64c.1 0 .41 0 .91.09a2.24 2.24 0 0 1 1.59.72 2.36 2.36 0 0 1 .6 1.73 2.3 2.3 0 0 1-.57 1.61 1.91 1.91 0 0 1-1.49.62 2.41 2.41 0 0 1-2-.92 3.86 3.86 0 0 1-.74-2.46 5.07 5.07 0 0 1 1.81-4.15 7.36 7.36 0 0 1 4.87-1.49A7.6 7.6 0 0 1 105.47 3a5.84 5.84 0 0 1 2 4.58q0 5.52-10.19 11.1h4c2.33 0 3.83-.08 4.51-.16a2.88 2.88 0 0 0 1.85-.65 4 4 0 0 0 .61-1.74c.13-.73.3-1.09.51-1.09s.24.13.24.42zM127.33 12.24a12.41 12.41 0 0 1-2.27 7.67 6.93 6.93 0 0 1-5.75 3 7.33 7.33 0 0 1-6-3.16 12.08 12.08 0 0 1-2.46-7.64q0-6 3.74-9.2a6.85 6.85 0 0 1 4.64-1.7 6.57 6.57 0 0 1 4.12 1.31 9.68 9.68 0 0 1 2.86 4 15 15 0 0 1 1.12 5.72zm-5.27-.55q0-6.75-1-8.78a1.92 1.92 0 0 0-1.85-1.15c-1.08 0-1.85.75-2.3 2.24a27.06 27.06 0 0 0-.73 7.25c0 5.06.46 8.37 1.4 9.93a2.05 2.05 0 0 0 1.76 1.19c1.06 0 1.78-.76 2.14-2.28a41.59 41.59 0 0 0 .58-8.4z"/></g></g></svg>
     </main>
@@ -128,7 +131,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-148336477-1');
     </script>
 </body>
